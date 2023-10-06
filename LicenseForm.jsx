@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import licenseSchema from "schemas/licenseSchema";
 import lookUpService from "services/lookUpService";
-import debug from "sabio-debug";
+import debug from "Yellowbrick-debug";
 import licenseService from "services/licenseService";
 import toastr from "toastr";
 import { useLocation } from "react-router-dom";
